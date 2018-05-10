@@ -8,6 +8,9 @@ namespace TestNinja.UnitTests
     [TestFixture]
     public class ReservationTests
     {
+        
+
+
         [Test]
         //public void CanBeCancelledBy_Scenario_ExpectedBehavior()
         public void CanBeCancelledBy_UserIsAdmin_ReturnTrue()
