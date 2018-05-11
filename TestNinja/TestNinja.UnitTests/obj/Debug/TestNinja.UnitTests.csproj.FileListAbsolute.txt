@@ -28,3 +28,12 @@ D:\Luis\GitHub\UnitTesting\TestNinja\TestNinja.UnitTests\bin\Debug\Mono.Cecil.Md
 D:\Luis\GitHub\UnitTesting\TestNinja\TestNinja.UnitTests\bin\Debug\Mono.Cecil.Rocks.dll
 D:\Luis\GitHub\UnitTesting\TestNinja\TestNinja.UnitTests\bin\Debug\nunit.framework.dll
 D:\Luis\GitHub\UnitTesting\TestNinja\TestNinja.UnitTests\bin\Debug\nunit.framework.xml
+D:\Luis\GitHub\UnitTesting\TestNinja\TestNinja.UnitTests\bin\Debug\Castle.Core.dll
+D:\Luis\GitHub\UnitTesting\TestNinja\TestNinja.UnitTests\bin\Debug\Moq.dll
+D:\Luis\GitHub\UnitTesting\TestNinja\TestNinja.UnitTests\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Luis\GitHub\UnitTesting\TestNinja\TestNinja.UnitTests\bin\Debug\System.ValueTuple.dll
+D:\Luis\GitHub\UnitTesting\TestNinja\TestNinja.UnitTests\bin\Debug\Castle.Core.xml
+D:\Luis\GitHub\UnitTesting\TestNinja\TestNinja.UnitTests\bin\Debug\Moq.pdb
+D:\Luis\GitHub\UnitTesting\TestNinja\TestNinja.UnitTests\bin\Debug\Moq.xml
+D:\Luis\GitHub\UnitTesting\TestNinja\TestNinja.UnitTests\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Luis\GitHub\UnitTesting\TestNinja\TestNinja.UnitTests\bin\Debug\System.ValueTuple.xml

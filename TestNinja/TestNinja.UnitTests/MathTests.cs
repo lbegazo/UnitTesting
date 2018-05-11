@@ -45,7 +45,6 @@ namespace TestNinja.UnitTests
         [Ignore("This is a ignore test, why?")]
         public void Max_FirstArgumentIsGreater_ReturnTheFirstArgument()
         {
-            //var math = new Fundamentals.Math();
             var result = math.Max(13, 1);
             Assert.That(result, Is.EqualTo(13));
         }
@@ -54,7 +53,6 @@ namespace TestNinja.UnitTests
         [Ignore("Please give me a chance")]
         public void Max_SecondArgumentIsGreater_ReturnTheSecondArgument()
         {
-            //var math = new Fundamentals.Math();
             var result = math.Max(1, 3);
             Assert.That(result, Is.EqualTo(3));
         }
@@ -62,7 +60,6 @@ namespace TestNinja.UnitTests
         [Test]
         public void Max_ArgumentsAreEqual_ReturnTheSameArgument()
         {
-            //var math = new Fundamentals.Math();
             var result = math.Max(3, 3);
             Assert.That(result, Is.EqualTo(3));
         }
@@ -74,7 +71,6 @@ namespace TestNinja.UnitTests
             Assert.That(result, Is.EquivalentTo(new[] { 1, 3, 5 }));
 
             //Assert.That(result, Does.Contain(1));
-
             //Assert.That(result, Is.Unique); //No duplicates
             //Assert.That(result, Is.Ordered); //it's ordered
         }
