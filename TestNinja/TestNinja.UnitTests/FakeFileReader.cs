@@ -9,6 +9,8 @@ namespace TestNinja.UnitTests
 {
     public class FakeFileReader : IFileReader
     {
+        public IFileReader Object => throw new NotImplementedException();
+
         public string Read(string path)
         {
             return "";

@@ -9,6 +9,8 @@ namespace TestNinja.Mocking
 {
     public class FileReader : IFileReader
     {
+        public IFileReader Object => throw new NotImplementedException();
+
         public string Read(string path)
         {
             return File.ReadAllText("video.txt");
