@@ -8,20 +8,17 @@ namespace TestNinja.UnitTests
     [TestFixture]
     public class ReservationTests
     {
-        
-
-
         [Test]
         //public void CanBeCancelledBy_Scenario_ExpectedBehavior()
         public void CanBeCancelledBy_UserIsAdmin_ReturnTrue()
         {
-            //arrange
+            //arrange -- Organizar
             var reservation = new Reservation();
 
-            //act
+            //act -- Acto
             bool result = reservation.CanBeCancelledBy(new User { IsAdmin = true });
 
-            //assert
+            //assert -- Afirmar
             //Assert.IsTrue(result);
             Assert.That(result, Is.True);
         }

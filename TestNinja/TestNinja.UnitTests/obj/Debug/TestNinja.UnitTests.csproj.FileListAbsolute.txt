@@ -37,3 +37,4 @@ D:\Luis\GitHub\UnitTesting\TestNinja\TestNinja.UnitTests\bin\Debug\Moq.pdb
 D:\Luis\GitHub\UnitTesting\TestNinja\TestNinja.UnitTests\bin\Debug\Moq.xml
 D:\Luis\GitHub\UnitTesting\TestNinja\TestNinja.UnitTests\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\Luis\GitHub\UnitTesting\TestNinja\TestNinja.UnitTests\bin\Debug\System.ValueTuple.xml
+D:\Luis\GitHub\UnitTesting\TestNinja\TestNinja.UnitTests\bin\Debug\NUnit3.TestAdapter.pdb
