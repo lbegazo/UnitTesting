@@ -7,13 +7,13 @@ using System.Text;
 using System.Threading.Tasks;
 using TestNinja.Mocking;
 
-namespace TestNinja.UnitTests.Mocking
+namespace TestNinja.UnitTests3.Mocking
 {
     [TestFixture]
-    public class VideoServiceTest
+    public class VideoServicesTests
     {
-        private Mock<IFileReader> _fileReader;
         private VideoService _videoService;
+        private Mock<IFileReader> _fileReader;
 
         [SetUp]
         public void SetUp()
@@ -22,13 +22,15 @@ namespace TestNinja.UnitTests.Mocking
             _videoService = new VideoService(_fileReader.Object);
         }
 
+
         [Test]
         public void ReadVideoTitle_EmptyFile_ReturnError()
-        {
-            _fileReader.Setup(fr => fr.Read("video.txt")).Returns("");                       
-            var result = _videoService.ReadVideoTitle();
-            Assert.That(result, Does.Contain("Error").IgnoreCase);
-        }
+        {            
+            _fileReader.Setup(fr => fr.Read("video.text")).Returns("");           
 
+            var result= _videoService.ReadVideoTitle();
+
+            Assert.That(result, Does.Contain("error").IgnoreCase);
+        }
     }
 }
